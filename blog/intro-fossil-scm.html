@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>Fossil SCM 簡介 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./intro-fossil-scm.html">
+
+        <meta name="author" content="yen" />
+        <meta name="keywords" content="fossil-scm,w2" />
+        <meta name="description" content="Fossil SCM 是一套軟體配置管理 (Software Configuration Management) 系統, 其中包含分散式版次控管 (DVC, Distributed Version Control) 、Wiki 、Bug Tracking 與 Technote 等功能, 可以用來控制及追蹤軟體開發專案, 並且紀錄專案開發歷程, 在協同產品設計實習課程中, 我們除了使用 git、github 與 bitbucket 之外, 將要在區域網路與系上主幹中, 配置每班兩台的 Fossil SCM 實習主機." />
+
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Fossil SCM 簡介"/>
+        <meta property="og:url" content="./intro-fossil-scm.html"/>
+        <meta property="og:description" content="Fossil SCM 是一套軟體配置管理 (Software Configuration Management) 系統, 其中包含分散式版次控管 (DVC, Distributed Version Control) 、Wiki 、Bug Tracking 與 Technote 等功能, 可以用來控制及追蹤軟體開發專案, 並且紀錄專案開發歷程, 在協同產品設計實習課程中, 我們除了使用 git、github 與 bitbucket 之外, 將要在區域網路與系上主幹中, 配置每班兩台的 Fossil SCM 實習主機."/>
+        <meta property="article:published_time" content="2017-02-17" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="fossil-scm" />
+            <meta property="article:tag" content="w2" />
+            <meta property="article:author" content="yen" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 協同產品設計實習 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/course.html">Course</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./intro-fossil-scm.html"
+                       rel="bookmark"
+                       title="Permalink to Fossil SCM 簡介">
+                        Fossil SCM 簡介
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-02-17T11:00:00+08:00"> Fri 17 February 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/yen.html"><i class="fa fa-user"></i> yen</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/fossil-scm.html">fossil-scm</a>
+        /
+	<a href="./tag/w2.html">w2</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>Fossil SCM 是一套軟體配置管理 (Software Configuration Management) 系統, 其中包含分散式版次控管 (DVC, Distributed Version Control) 、<a href="http://fossil-scm.org/xfer/doc/trunk/www/wikitheory.wiki">Wiki</a> 、<a href="http://fossil-scm.org/xfer/doc/trunk/www/bugtheory.wiki">Bug Tracking</a> 與 <a href="http://fossil-scm.org/xfer/doc/trunk/www/event.wiki">Technote</a> 等功能, 可以用來控制及追蹤軟體開發專案, 並且紀錄專案開發歷程, 在協同產品設計實習課程中, 我們除了使用 git、github 與 bitbucket 之外, 將要在區域網路與系上主幹中, 配置每班兩台的 Fossil SCM 實習主機.</p>
+
+
+<h2>Fossil SCM</h2>
+<h3>Fossil Concepts</h3>
+<p>check-in - 簽入版本: 對所開發的軟體進行改版後, 簽入倉儲的版本, 稱為簽入版本.</p>
+<p>repository - 倉儲: 包含開發專案歷程中, 所有簽入版本檔案的資料庫, 稱為倉儲.</p>
+<p>建立新倉儲</p>
+<p>可以使用 <a href="http://fossil-scm.org/index.html/help?cmd=new">fossil new</a> 或 <a href="http://fossil-scm.org/index.html/help?cmd=init">fossil init</a></p>
+<p>fossil new foo.fossil</p>
+<p>or </p>
+<p>fossil init foo.fossil</p>
+<p>表示建立一個新的倉儲專案, 且倉儲檔案名稱為 foo.fossil, 在 fossil SCM 中建立新專案時, 登入用戶名稱會成為內定的倉儲管理者, 若要指定管理者名稱, 可以附加 -A USERNAME 或 --admin-user USERNAME, 新增的倉儲就會以 USERNAME 作為管理者名稱, 且指定對應的密碼 (有關 <a href="http://fossil-scm.org/xfer/doc/trunk/www/password.wiki">fossil 密碼管理</a>), 當使用者在近端以網際模式啟動該倉儲時 (以 <a href="http://fossil-scm.org/index.html/help?cmd=ui">fossil ui</a> 指令) fossil SCM 會直接以管理者身份登入, 無需輸入管理者密碼.</p>
+<p>由於 fossil SCM 的倉儲格式為 Sqlite3 資料庫檔案, 因此利用 fossil init foo.fossil 建立倉儲後, 可以利用 sqlite3 工具查驗資料庫中的欄位資料.</p>
+<p>首先以 sqlite3 工具指令開啟 foo.fossil 資料庫檔案, 進入 sql 指令環境:</p>
+<p>sqlite3 foo.fossil</p>
+<p>接著以 .schema user 查詢 user 資料表的欄位名稱, 然後直接讀取資料表中 login, pw 與 info 欄位中的資料:</p>
+<pre class="brush: jscript">
+.schema user
+select login, pw, info from user;
+</pre>
+
+<p>其中可以發現 fossil SCM 已經使用 SHA1 hash 編碼使用者帳號對應的登入密碼, 但是當使用者 <a href="http://fossil-scm.org/index.html/help?cmd=clone">fossil clone</a> 遠端倉儲到近端時, fossil SCM 會自動以明碼設定倉儲原管理者對應的管理密碼, 且在 fossil clone 結束後, 直接顯示在命令列視窗中 .</p>
+<h3>clone</h3>
+<pre class="brush: jscript">
+$ fossil clone http://your_domain_name ~/fossils/yourdb.fossil
+$ fossil open ~/fossils/foo.fossil
+</pre>
+
+<h3>add a file</h3>
+<pre class="brush: jscript">
+$ fossil add yourfile.txt
+</pre>
+
+<p>git 分支流程模型</p>
+<p><a href="http://nvie.com/posts/a-successful-git-branching-model/">http://nvie.com/posts/a-successful-git-branching-model/</a></p>
+<p>Fossil SCM concept</p>
+<p><a href="https://www.fossil-scm.org/xfer/doc/tip/www/concepts.wiki">https://www.fossil-scm.org/xfer/doc/tip/www/concepts.wiki</a></p>
+<p>Why Fossil SCM?</p>
+<ol>
+<li>
+<p>單一檔案工具與單一檔案倉儲上的簡單便捷</p>
+</li>
+<li>
+<p>版本倉儲 (repository) 可以不在工作目錄 (working directory) 中, 因此使用者可以從同一個版本倉儲, 在不同目錄中, 簽出多個版本的工作空間, 因此具有伺服器版本控制系統 (server vcs) 與分散式版次控制系統 (dvcs) 的彈性與優點.</p>
+</li>
+<li>
+<p>開發歷程不可變更 (因為不提供 rebase 功能), 是優點, 也是許多人認為的缺點.</p>
+</li>
+<li>
+<p>小團隊更適合使用 Fossil SCM</p>
+</li>
+<li>
+<p>內建網際伺服器支援團隊間的協同合作, 不僅內建提供 wiki, blog, issue tracking, 而且可以在近端修改這些工具所管理的內容後, 提交推送到遠端.</p>
+</li>
+</ol>
+<p>缺乏 submodule (而是採 nested path 呈現), rebase 與 code review 整合功能</p>
+<h3>git to fossil:</h3>
+<pre class="brush: jscript">
+cd git-repo
+git fast-export --all | fossil import --git new-repo.fossil
+</pre>
+
+<h3>fossil to git:</h3>
+<pre class="brush: jscript">
+git init new-repo
+cd new-repo
+fossil export --git ../repo.fossil | git fast-import
+</pre>
+
+<h3>fossil 與 git 雙向同步:</h3>
+<p>Bidirectional Synchronization</p>
+<p>Fossil also has the ability to synchronize with a Git repository via repeated imports and/or exports. To do this, it uses marks files to store a record of artifacts which are known by both Git and Fossil to exist at a given point in time.</p>
+<p>To illustrate, consider the example of a remote Fossil repository that a user wants to import into a local Git repository. First, the user would clone the remote repository and import it into a new Git repository:</p>
+<pre class="brush: jscript">
+fossil clone /path/to/remote/repo.fossil repo.fossil
+mkdir repo
+cd repo
+fossil open ../repo.fossil
+mkdir ../repo.git
+cd ../repo.git
+git init .
+fossil export --git --export-marks ../repo/fossil.marks  \
+       ../repo.fossil | git fast-import                  \
+       --export-marks=../repo/git.marks
+</pre>
+
+<p>Once the import has completed, the user would need to git checkout trunk. At any point after this, new changes can be imported from the remote Fossil repository:</p>
+<pre class="brush: jscript">
+cd ../repo
+fossil pull
+cd ../repo.git
+fossil export --git --import-marks ../repo/fossil.marks  \
+       --export-marks ../repo/fossil.marks               \
+       ../repo.fossil | git fast-import                  \
+       --import-marks=../repo/git.marks                  \
+       --export-marks=../repo/git.marks
+</pre>
+
+<p>Changes in the Git repository can be exported to the Fossil repository and then pushed to the remote:</p>
+<pre class="brush: jscript">
+git fast-export --import-marks=../repo/git.marks                  \
+    --export-marks=../repo/git.marks --all | fossil import --git  \
+    --incremental --import-marks ../repo/fossil.marks             \
+    --export-marks ../repo/fossil.marks ../repo.fossil
+cd ../repo
+fossil push
+</pre>
+
+<h2>Fossil SCM 一般操作</h2>
+<p><a href="http://www.gaia-gis.it/gaia-sins/about-fossil.html">http://www.gaia-gis.it/gaia-sins/about-fossil.html</a></p>
+<p>fossil clone https://www.gaia-gis.it/fossil/librasterlite \
+    librasterlite.fossil</p>
+<p>或者 </p>
+<p>fossil clone https://user:password@www.gaia-gis.it/fossil/librasterlite \
+    librasterlite.fossil</p>
+<ol>
+<li>將倉儲內容開啟, 放入工作目錄中</li>
+</ol>
+<pre class="brush: jscript">
+$ mkdir librasterlite
+$ cd librasterlite
+$ fossil open ../librasterlite.fossil
+</pre>
+
+<ol>
+<li>對工作目錄中的檔案改版後, 查詢改版情形</li>
+</ol>
+<p>fossil status</p>
+<ol>
+<li>選擇編輯器, 提交版本至遠端倉儲後關閉</li>
+</ol>
+<pre class="brush: jscript">
+$ export "EDITOR=vi"
+$ fossil commit
+$ fossil close
+</pre>
+
+<ol>
+<li>其他 Fossil SCM 指令: <a href="http://fossil-scm.org/index.html/help">http://fossil-scm.org/index.html/help</a></li>
+</ol>
+<p>Fossil SCM 特色:</p>
+<ol>
+<li>Integrated Bug Tracking, Wiki, and Technotes</li>
+<li>Built-In Web Interface</li>
+<li>Self-Contained</li>
+<li>Simple Networking</li>
+<li>CGI/SCGI Enabled</li>
+<li>Autosync</li>
+<li>Robust &amp; Reliable</li>
+<li>Free and Open-Source</li>
+</ol>
+<p>Fossil (4 MB) 只需要 zlib 與 stunnel (4MB), 就可以充分使用, 但是 git 則需要許多程式庫與套件才能執行 (200 MB)</p>
+<h2>參考資料</h2>
+<p><a href="http://www.fredshack.com/docs/fossil.html">http://www.fredshack.com/docs/fossil.html</a></p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./brython-2d-drawing.html">
+                            協同產品設計實習第1週任務
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./intro-fossil-scm.html">
+                            Fossil SCM 簡介
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./vrep-introduction.html">
+                            V-rep 簡介
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./brython-editor.html">
+                            網際 Brython 程式執行環境
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2017spring-cd.html">
+                            2017Spring 協同產品設計實習
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/course.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
