@@ -51,7 +51,7 @@
 </v>
 </v>
 <v t="leo.20170314182344.1" a="E"><vh>W3</vh>
-<v t="leo.20170314182344.4" a="E"><vh>Homework</vh>
+<v t="leo.20170314182344.4"><vh>Homework</vh>
 <v t="leo.20170314182344.5"><vh>work</vh></v>
 </v>
 <v t="leo.20170314182344.2"><vh>分配</vh>
@@ -72,7 +72,7 @@
 <v t="leo.20170314202117.1"><vh>驗證軌跡</vh>
 <v t="leo.20170314202117.2"><vh>成品</vh></v>
 </v>
-<v t="leo.20170314202120.1"><vh>影片區</vh>
+<v t="leo.20170314202120.1" a="E"><vh>影片區</vh>
 <v t="leo.20170314202201.1"><vh>影片</vh></v>
 </v>
 <v t="leo.20170314203807.1"><vh>問題</vh>
@@ -173,8 +173,9 @@
 						
 </t>
 <t tx="leo.20170314182344.7"># 英文影片
+(Copy 40423221 and 40423245)
 
-無法打開檔案</t>
+&lt;img src="data/W3/英文影片/英文翻譯.png"width="450"/&gt;</t>
 <t tx="leo.20170314185523.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -185,7 +186,7 @@
 						
 </t>
 <t tx="leo.20170314185523.2">#四連桿 
-(Copy 40423245and40423228)
+(Copy 40423228 and 40423245)
 
 &lt;img src="data/W3/四連桿/fourbar345.png"width="450"/&gt;</t>
 <t tx="leo.20170314185526.1">&lt;section data-markdown&gt;
@@ -203,7 +204,7 @@
 
 2.將工作分配的更仔細明確
 
-3.補上W1andW2</t>
+3.補上W1 and W2</t>
 <t tx="leo.20170314191617.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -214,7 +215,7 @@
 						
 </t>
 <t tx="leo.20170314191617.2">#四連桿-Onshape
-(Copy 40423245and40423228)
+(Copy 40423228 and 40423245)
 
 &lt;img src="data/W3/四連桿-Onshape/fourbar in onshape.png"width="450"/&gt;
 
@@ -229,7 +230,7 @@
 						
 </t>
 <t tx="leo.20170314191622.2">#運動軌跡
-(Copy 40423245and40423228)
+(Copy 40423228 and 40423245)
 
 &lt;img src="data/W3/運動軌跡/fourbar trace point.png"width="450"/&gt;</t>
 <t tx="leo.20170314201653.1">&lt;section data-markdown&gt;
@@ -255,7 +256,6 @@
 						
 </t>
 <t tx="leo.20170314202117.2">#驗證軌跡
-
 (Copy 40423245)
 
 &lt;img src="data/W3/驗證軌跡/Excel trace point.png"width="450"/&gt;</t>
@@ -270,7 +270,11 @@
 </t>
 <t tx="leo.20170314202201.1">##影片(vimeo)
 
-英文影片:無法打開檔案
+英文影片:
+
+hyperworks 14 4:(&lt;a href="https://vimeo.com/208321312"&gt;英&lt;/a&gt;,&lt;a href="https://vimeo.com/208321345"&gt;中&lt;/a&gt;)文,&lt;a href="https://vimeo.com/208321328"&gt;中英文&lt;/a&gt; 
+
+hyperworks 14 5:(&lt;a href="https://vimeo.com/208321230"&gt;英&lt;/a&gt;,&lt;a href="https://vimeo.com/208321256"&gt;中&lt;/a&gt;)文,&lt;a href="https://vimeo.com/208321297"&gt;中英文&lt;/a&gt;
 
 四連桿:
 &lt;a href="https://vimeo.com/206935307"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207629426"&gt;40423245&lt;/a&gt;
@@ -299,13 +303,11 @@
 
 2.多名組員沒動力製作作業
 
-3.21跟48找不到翻譯的影片
+3.02跟51投影片有問題
 
-4.02跟51投影片有問題
+4.沒分配好每個人該製作的部分
 
-5.沒分配好每個人該製作的部分
-
-6.沒製作W1跟W2</t>
+5.沒製作W1跟W2</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
