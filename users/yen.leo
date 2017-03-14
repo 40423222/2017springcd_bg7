@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="yen.20170108171605.1" a="E"><vh>@settings</vh>
+<v t="yen.20170108171605.1"><vh>@settings</vh>
 <v t="yen.20170108171605.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="yen.20170108171605.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -18,25 +18,25 @@
 <v t="yen.20170108171733.2"><vh>@button pelican-blog</vh></v>
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
-<v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
+<v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
-<v t="yen.20170215103217.1" a="E"><vh>編輯 template</vh>
+<v t="yen.20170215103217.1"><vh>編輯 template</vh>
 <v t="yen.20170215103228.1" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
 <v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
-<v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
+<v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
+<v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="yen.20170120110024.11"><vh>各式內容引用範例</vh>
@@ -50,12 +50,47 @@
 <v t="yen.20170120110024.17"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
+<v t="leo.20170314182344.1" a="E"><vh>W3</vh>
+<v t="leo.20170314182344.4" a="E"><vh>Homework</vh>
+<v t="leo.20170314182344.5"><vh>work</vh></v>
+</v>
+<v t="leo.20170314182344.2"><vh>分配</vh>
+<v t="leo.20170314182344.3"><vh>分配方式</vh></v>
+</v>
+<v t="leo.20170314182344.6"><vh>英文影片</vh>
+<v t="leo.20170314182344.7"><vh>成品</vh></v>
+</v>
+<v t="leo.20170314185523.1"><vh>四連桿</vh>
+<v t="leo.20170314185523.2"><vh>成品</vh></v>
+</v>
+<v t="leo.20170314191617.1"><vh>四連桿-Onshape</vh>
+<v t="leo.20170314191617.2"><vh>成品</vh></v>
+</v>
+<v t="leo.20170314191622.1"><vh>運動軌跡</vh>
+<v t="leo.20170314191622.2"><vh>成品</vh></v>
+</v>
+<v t="leo.20170314202117.1"><vh>驗證軌跡</vh>
+<v t="leo.20170314202117.2"><vh>成品</vh></v>
+</v>
+<v t="leo.20170314202120.1"><vh>影片區</vh>
+<v t="leo.20170314202201.1"><vh>影片</vh></v>
+</v>
+<v t="leo.20170314203807.1"><vh>問題</vh>
+<v t="leo.20170314203807.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20170314201653.1"><vh>講解</vh>
+<v t="leo.20170314201653.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20170314185526.1"><vh>心得</vh>
+<v t="leo.20170314185526.2"><vh>內容</vh></v>
 </v>
 </v>
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
+</v>
+</v>
+<v t="yen.20170108171733.71"><vh>@path content</vh>
 <v t="yen.20170123225841.1"><vh>@edit 20170108.md</vh></v>
 <v t="yen.20170207091131.1" a="E"><vh>@clean 20170207.md</vh>
 <v t="yen.20170207091131.2"><vh>ex1 - for 迴圈</vh></v>
@@ -73,7 +108,7 @@
 </v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
-<v t="yen.20170120212350.1" a="E"><vh>programs</vh>
+<v t="yen.20170120212350.1"><vh>programs</vh>
 <v t="yen.20170210153828.1" a="E"><vh>v-rep rempte api</vh>
 <v t="yen.20170210202015.1"><vh>Python remote API</vh></v>
 <v t="yen.20170210170248.1"><vh>line tracer</vh></v>
@@ -93,6 +128,184 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170314182344.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170314182344.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170314182344.3">#分配工作
+
+&lt;img src="data/W3/Work/W3-2.png"width="450"/&gt;
+
+分兩小組製作</t>
+<t tx="leo.20170314182344.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170314182344.5">#W3-Homework
+
+&lt;a href="https://mde2a1.kmol.info/wiki?name=2017springcd"&gt;&lt;img src="data/W3/Work/W3-1.png"width="1000"/&gt;&lt;/a&gt;
+
+點擊圖片進入mde2a1/2017springcd</t>
+<t tx="leo.20170314182344.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314182344.7"># 英文影片
+
+無法打開檔案</t>
+<t tx="leo.20170314185523.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314185523.2">#四連桿 
+(Copy 40423245and40423228)
+
+&lt;img src="data/W3/四連桿/fourbar345.png"width="450"/&gt;</t>
+<t tx="leo.20170314185526.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314185526.2"># 心得
+
+1.找人去幫落後的組員
+
+2.將工作分配的更仔細明確
+
+3.補上W1andW2</t>
+<t tx="leo.20170314191617.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314191617.2">#四連桿-Onshape
+(Copy 40423245and40423228)
+
+&lt;img src="data/W3/四連桿-Onshape/fourbar in onshape.png"width="450"/&gt;
+
+&lt;a href="https://cad.onshape.com/documents/8a40a446a6e3a930313e8ca4/w/b9aa548914cf88a0a506e817/e/6f45645181ba9446e1398078"&gt;四連桿-Onshape&lt;/a&gt;</t>
+<t tx="leo.20170314191622.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314191622.2">#運動軌跡
+(Copy 40423245and40423228)
+
+&lt;img src="data/W3/運動軌跡/fourbar trace point.png"width="450"/&gt;</t>
+<t tx="leo.20170314201653.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314201653.2">#講解
+
+關於這周的各種檔案我會放到data/W3內
+想要了解自行去觀看</t>
+<t tx="leo.20170314202117.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314202117.2">#驗證軌跡
+
+(Copy 40423245)
+
+&lt;img src="data/W3/驗證軌跡/Excel trace point.png"width="450"/&gt;</t>
+<t tx="leo.20170314202120.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314202201.1">##影片(vimeo)
+
+英文影片:無法打開檔案
+
+四連桿:
+&lt;a href="https://vimeo.com/206935307"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207629426"&gt;40423245&lt;/a&gt;
+
+四連桿-Onshape:
+
+40423228:&lt;a href="https://vimeo.com/207404520"&gt;part30&lt;/a&gt;,&lt;a href="https://vimeo.com/207404544"&gt;part50&lt;/a&gt;,&lt;a href="https://vimeo.com/207404550"&gt;part60&lt;/a&gt;,&lt;a href="https://vimeo.com/207928838"&gt;Assembly&lt;/a&gt; and &lt;a href="https://vimeo.com/207626453"&gt;40423245&lt;/a&gt;
+
+運動軌跡:
+&lt;a href="https://vimeo.com/208069152"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207920094"&gt;40423245&lt;/a&gt;
+
+驗證軌跡:
+&lt;a href="https://vimeo.com/207920094"&gt;40423245&lt;/a&gt;</t>
+<t tx="leo.20170314203807.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170314203807.2">#問題(要改進)
+
+1.發生一個人完成全部工作的問題
+
+2.多名組員沒動力製作作業
+
+3.21跟48找不到翻譯的影片
+
+4.02跟51投影片有問題
+
+5.沒分配好每個人該製作的部分
+
+6.沒製作W1跟W2</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -418,15 +631,14 @@ make.start()
 
 						
 </t>
-<t tx="yen.20170120110024.8">## 2017Spring 協同產品設計實習
-
-### 虎科大機械設計工程系
+<t tx="yen.20170120110024.8">## &lt;a href="https://github.com/40423222/2017springcd_bg7"&gt;2017Springcd_bg7&lt;/a&gt; 
+#協同產品設計實習
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40423222](https://github.com/40423222)
 &lt;/small&gt;
 
-[協同產品設計實習課程網誌](blog/index.html)
+[組員名單](https://github.com/40423222/2017springcd_bg7/wiki#wait)
 
 
 </t>
