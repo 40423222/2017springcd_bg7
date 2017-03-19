@@ -31,7 +31,7 @@
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
-<v t="yen.20170120110024.5"><vh>reveal div</vh>
+<v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
 <v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
@@ -55,7 +55,7 @@
 <v t="leo.20170319171514.3"><vh>work</vh></v>
 </v>
 </v>
-<v t="leo.20170314182344.1"><vh>W3</vh>
+<v t="leo.20170314182344.1" a="E"><vh>W3</vh>
 <v t="leo.20170314182344.4"><vh>Homework</vh>
 <v t="leo.20170314182344.5"><vh>work</vh></v>
 </v>
@@ -77,7 +77,7 @@
 <v t="leo.20170314202117.1"><vh>驗證軌跡</vh>
 <v t="leo.20170314202117.2"><vh>成品</vh></v>
 </v>
-<v t="leo.20170314202120.1"><vh>影片區</vh>
+<v t="leo.20170314202120.1" a="E"><vh>影片區</vh>
 <v t="leo.20170314202201.1"><vh>影片</vh></v>
 </v>
 <v t="leo.20170314203807.1"><vh>問題</vh>
@@ -283,14 +283,13 @@ hyperworks 14 4:(&lt;a href="https://vimeo.com/208321312"&gt;英&lt;/a&gt;,&lt;a
 hyperworks 14 5:(&lt;a href="https://vimeo.com/208321230"&gt;英&lt;/a&gt;,&lt;a href="https://vimeo.com/208321256"&gt;中&lt;/a&gt;)文,&lt;a href="https://vimeo.com/208321297"&gt;中英文&lt;/a&gt;
 
 四連桿:
-&lt;a href="https://vimeo.com/206935307"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207629426"&gt;40423245&lt;/a&gt;
+&lt;a href="https://vimeo.com/208413780"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207629426"&gt;40423245&lt;/a&gt;
 
 四連桿-Onshape:
-
-40423228:&lt;a href="https://vimeo.com/207404520"&gt;part30&lt;/a&gt;,&lt;a href="https://vimeo.com/207404544"&gt;part50&lt;/a&gt;,&lt;a href="https://vimeo.com/207404550"&gt;part60&lt;/a&gt;,&lt;a href="https://vimeo.com/207928838"&gt;Assembly&lt;/a&gt; and &lt;a href="https://vimeo.com/207626453"&gt;40423245&lt;/a&gt;
+&lt;a href="https://vimeo.com/208415265"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207626453"&gt;40423245&lt;/a&gt;
 
 運動軌跡:
-&lt;a href="https://vimeo.com/208069152"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207920094"&gt;40423245&lt;/a&gt;
+&lt;a href="https://vimeo.com/208415790"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/207920094"&gt;40423245&lt;/a&gt;
 
 驗證軌跡:
 &lt;a href="https://vimeo.com/207920094"&gt;40423245&lt;/a&gt;</t>
