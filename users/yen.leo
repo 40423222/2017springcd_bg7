@@ -50,7 +50,12 @@
 <v t="yen.20170120110024.17"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20170314182344.1" a="E"><vh>W3</vh>
+<v t="leo.20170319171514.1" a="E"><vh>W2</vh>
+<v t="leo.20170319171514.2" a="E"><vh>Homework</vh>
+<v t="leo.20170319171514.3"><vh>work</vh></v>
+</v>
+</v>
+<v t="leo.20170314182344.1"><vh>W3</vh>
 <v t="leo.20170314182344.4"><vh>Homework</vh>
 <v t="leo.20170314182344.5"><vh>work</vh></v>
 </v>
@@ -72,7 +77,7 @@
 <v t="leo.20170314202117.1"><vh>驗證軌跡</vh>
 <v t="leo.20170314202117.2"><vh>成品</vh></v>
 </v>
-<v t="leo.20170314202120.1" a="E"><vh>影片區</vh>
+<v t="leo.20170314202120.1"><vh>影片區</vh>
 <v t="leo.20170314202201.1"><vh>影片</vh></v>
 </v>
 <v t="leo.20170314203807.1"><vh>問題</vh>
@@ -308,6 +313,23 @@ hyperworks 14 5:(&lt;a href="https://vimeo.com/208321230"&gt;英&lt;/a&gt;,&lt;a
 4.沒分配好每個人該製作的部分
 
 5.沒製作W1跟W2</t>
+<t tx="leo.20170319171514.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170319171514.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170319171514.3">#W2-Homework
+
+待更新</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
