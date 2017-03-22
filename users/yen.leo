@@ -50,9 +50,27 @@
 <v t="yen.20170120110024.17"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20170319171514.1"><vh>W2</vh>
+<v t="leo.20170319171514.1" a="E"><vh>W2</vh>
 <v t="leo.20170319171514.2"><vh>Homework</vh>
 <v t="leo.20170319171514.3"><vh>work</vh></v>
+</v>
+<v t="leo.20170322093638.1"><vh>座位</vh>
+<v t="leo.20170322093638.2"><vh>程式碼</vh></v>
+</v>
+<v t="leo.20170322093315.1"><vh>四連桿</vh>
+<v t="leo.20170322093315.2"><vh>圖</vh></v>
+</v>
+<v t="leo.20170322093920.1"><vh>四連桿</vh>
+<v t="leo.20170322093920.2"><vh>成品</vh></v>
+</v>
+<v t="leo.20170322094141.1"><vh>四連桿</vh>
+<v t="leo.20170322094141.2"><vh>Vrep</vh></v>
+</v>
+<v t="leo.20170322092815.1"><vh>影片區</vh>
+<v t="leo.20170322092815.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170322094326.1"><vh>心得</vh>
+<v t="leo.20170322094326.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20170314182344.1" a="E"><vh>W3</vh>
@@ -77,7 +95,7 @@
 <v t="leo.20170314202117.1"><vh>驗證軌跡</vh>
 <v t="leo.20170314202117.2"><vh>成品</vh></v>
 </v>
-<v t="leo.20170314202120.1" a="E"><vh>影片區</vh>
+<v t="leo.20170314202120.1"><vh>影片區</vh>
 <v t="leo.20170314202201.1"><vh>影片</vh></v>
 </v>
 <v t="leo.20170314203807.1"><vh>問題</vh>
@@ -86,7 +104,7 @@
 <v t="leo.20170314201653.1"><vh>講解</vh>
 <v t="leo.20170314201653.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20170314185526.1"><vh>心得</vh>
+<v t="leo.20170314185526.1" a="E"><vh>心得</vh>
 <v t="leo.20170314185526.2"><vh>內容</vh></v>
 </v>
 </v>
@@ -164,7 +182,7 @@
 
 						
 </t>
-<t tx="leo.20170314182344.5">#W3-Homework
+<t tx="leo.20170314182344.5">##W3-Homework
 
 &lt;a href="https://mde2a1.kmol.info/wiki?name=2017springcd"&gt;&lt;img src="data/W3/Work/W3-1.png"width="1000"/&gt;&lt;/a&gt;
 
@@ -204,7 +222,7 @@
 
 						
 </t>
-<t tx="leo.20170314185526.2"># 心得
+<t tx="leo.20170314185526.2">## 心得
 
 1.找人去幫落後的組員
 
@@ -327,9 +345,158 @@ hyperworks 14 5:(&lt;a href="https://vimeo.com/208321230"&gt;英&lt;/a&gt;,&lt;a
 
 						
 </t>
-<t tx="leo.20170319171514.3">#W2-Homework
+<t tx="leo.20170319171514.3">##W2-Homework
 
-待更新</t>
+1.利用python找出缺課名單以及查看座位表
+
+2. 利用SOLVESPACE組合四連桿並放入VREP內</t>
+<t tx="leo.20170322092815.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170322092815.2">##影片(vimeo)
+
+四連桿機構:
+
+運動軌跡:
+&lt;a href="https://vimeo.com/208413780"&gt;40423228&lt;/a&gt; and &lt;a href="https://vimeo.com/206845385"&gt;40423245&lt;/a&gt; and &lt;a href="https://vimeo.com/209055543"&gt;40423248&lt;/a&gt;</t>
+<t tx="leo.20170322093315.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170322093315.2">##四連桿 
+(Copy 40423228)
+
+&lt;a href="http://imgur.com/as4FlBV"&gt;&lt;img src="http://i.imgur.com/as4FlBV.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170322093638.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170322093638.2">## 分組座位程式碼
+以下利用 Python格式列印出班級座位表
+```
+@language python
+#import os
+#讀取w2b_cadlab.txt的檔案將其儲存為adata，並設定encoding為utf-8
+adata = open("w2b_cadlab.txt", encoding="utf-8").read()
+#讀取w2b_registered.txt的檔案將其儲存為rdata，並一行一行隔開，並設定encoding為utf-8
+rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
+#print(adata)
+#利用splitlines將adata一行一行隔開並其儲存為alist
+alist = adata.splitlines()
+#print(alist[2])
+#將變數n儲存為0
+n = 0
+#將列從0開始算起
+row = 0
+#將final_list儲存為一個空的數列
+final_list = []
+#將w2_list儲存為一個空的數列
+w2_list = []
+#執行一個for迴圈從第二列開始
+for stud_num in alist[2:]:
+    #每執行完一次迴圈列數+1
+    row = row + 1
+    #執行完迴圈後用\將其隔開並儲存為blist
+    blist = stud_num.split("\t")
+    #print(blist)
+    #將行從0開始算起
+    column = 0
+    #執行一個for迴圈去取得blist裡的數列
+    for i in range(len(blist)):
+         #每執行完一次迴圈行數+1
+        column = column + 1
+        #假如blist數列裡不是空白
+        if blist[i] != "":
+            #print(blist[i])
+            #將組序有用_隔開的儲存為clist 
+            clist = blist[i].split("_")
+            #將組序+_+學號+_+列+行的資料儲存為stud_data
+            stud_data = clist[0]+"_"+clist[1]+"_"+str(row)+"_"+str(column)
+             #將stud_data結果附加在final_list的資料裡
+            final_list.append(stud_data)
+            #將clist[1]結果附加在w2_list的資料裡
+            w2_list.append(clist[1])
+            #每執行完一次迴圈n+1
+            n = n +1
+# 根據數列前導字串排序, 目的在建立分組數列
+group_list = sorted(final_list)
+#列印出分組名單
+print("分組名單:")
+#執行一個for迴圈去取得group_list裡的數列
+for i in range(len(group_list)):
+    #列印出 group_list[i]的資料
+    print(group_list[i])
+#列印出座位列表
+print("座位列表:")
+#執行一個for迴圈去取得final_list裡的數列
+for i in range(len(final_list)):
+    #列印出 final_list[i]的資料
+    print(final_list[i])
+#執行一個for迴圈去取得rdata裡的數列
+for i in range(len(rdata)):
+    #假如有在rdata裡但沒有在w2_list裡，目的在找出缺席學生
+    if rdata[i] not in w2_list:
+        #列印出 rdata[i]的資料，缺席學生
+        print("缺席學生:", rdata[i])
+#列印出學生總數n個
+print("學生總數:", n)
+#print(os.environ)
+
+```
+</t>
+<t tx="leo.20170322093920.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170322093920.2">##四連桿 
+(Copy 40423245)
+
+&lt;img src="data/W2/fourbar combination.png" width="640" /&gt;</t>
+<t tx="leo.20170322094141.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170322094141.2">##四連桿 
+(Copy 40423245)
+
+&lt;img src="data/W2/Vrep fourbar combination.png" width="640" /&gt;
+</t>
+<t tx="leo.20170322094326.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170322094326.2">## 心得</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -656,7 +823,7 @@ make.start()
 						
 </t>
 <t tx="yen.20170120110024.8">## &lt;a href="https://github.com/40423222/2017springcd_bg7"&gt;2017Springcd_bg7&lt;/a&gt; 
-#協同產品設計實習
+##協同產品設計實習
 
 &lt;small&gt;
 Created by [40423222](https://github.com/40423222)
