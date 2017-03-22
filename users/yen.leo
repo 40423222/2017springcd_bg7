@@ -60,10 +60,10 @@
 <v t="leo.20170322093315.1"><vh>四連桿</vh>
 <v t="leo.20170322093315.2"><vh>圖</vh></v>
 </v>
-<v t="leo.20170322093920.1"><vh>四連桿</vh>
+<v t="leo.20170322093920.1" a="E"><vh>四連桿</vh>
 <v t="leo.20170322093920.2"><vh>成品</vh></v>
 </v>
-<v t="leo.20170322094141.1"><vh>四連桿</vh>
+<v t="leo.20170322094141.1" a="E"><vh>四連桿</vh>
 <v t="leo.20170322094141.2"><vh>Vrep</vh></v>
 </v>
 <v t="leo.20170322092815.1"><vh>影片區</vh>
@@ -472,7 +472,7 @@ print("學生總數:", n)
 <t tx="leo.20170322093920.2">##四連桿 
 (Copy 40423245)
 
-&lt;img src="data/W2/fourbar combination.png" width="640" /&gt;</t>
+&lt;a href="http://imgur.com/JqKVyfP"&gt;&lt;img src="http://i.imgur.com/JqKVyfP.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="leo.20170322094141.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -485,8 +485,7 @@ print("學生總數:", n)
 <t tx="leo.20170322094141.2">##四連桿 
 (Copy 40423245)
 
-&lt;img src="data/W2/Vrep fourbar combination.png" width="640" /&gt;
-</t>
+&lt;a href="http://imgur.com/12Sa8nc"&gt;&lt;img src="http://i.imgur.com/12Sa8nc.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="leo.20170322094326.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
