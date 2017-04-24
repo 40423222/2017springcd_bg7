@@ -22,7 +22,7 @@
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
-<v t="yen.20170215103217.1" a="E"><vh>編輯 template</vh>
+<v t="yen.20170215103217.1"><vh>編輯 template</vh>
 <v t="yen.20170215103228.1" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
@@ -44,8 +44,8 @@
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71"><vh>@path content</vh>
-<v t="yen.20170108171733.81"><vh>@path pages</vh>
+<v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
+<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
