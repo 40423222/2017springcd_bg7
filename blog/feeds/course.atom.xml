@@ -13,6 +13,10 @@
 &lt;p&gt;&lt;img src="./../data/W7/four bar/Solvespace.png" width="800" /&gt;&lt;/p&gt;
 &lt;p&gt;(長 30 mm 的連桿為馬達輸入桿, Trace Point 為 T 點)&lt;/p&gt;
 &lt;p&gt;&lt;img src="./../data/W7/four bar/Excel.png" width="800" /&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/214646141" width="640" height="491" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214646141"&gt;40423222協同產品設計實習W9-fourbar link 50 點分析&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
@@ -81,6 +85,10 @@ ctx.closePath()
 &lt;p&gt;完成圖&lt;/p&gt;
 &lt;p&gt;&lt;img src="./../data/W7/fourbar walker/Onshape.png" width="800" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/145f725dbf774c7b68251a1c/w/0eafa79e5c9848ed246a1d55/e/668781a199820ef9d18a7096"&gt;(零件連結)&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/214646151" width="640" height="491" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214646151"&gt;40423222協同產品設計實習W9-Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h3&gt;(四) 分組協同零件展示&lt;/h3&gt;
 &lt;p&gt;&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
 &lt;script src="./../data/madeleine/src/lib/stats.js"&gt;&lt;/script&gt;
