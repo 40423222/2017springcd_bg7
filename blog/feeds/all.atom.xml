@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-25T23:02:00+08:00</updated><entry><title>Lab3 Fade</title><link href="./Arduino-Fade.html" rel="alternate"></link><published>2017-04-25T23:02:00+08:00</published><updated>2017-04-25T23:02:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Fade.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Fade實驗&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-25T23:50:00+08:00</updated><entry><title>Lab4 Potentiometer</title><link href="./Arduino-Potentiometer.html" rel="alternate"></link><published>2017-04-25T23:50:00+08:00</published><updated>2017-04-25T23:50:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Potentiometer.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Potentiometer實驗&lt;/p&gt;
+
+
+&lt;h3&gt;需要材料:&lt;/h3&gt;
+&lt;p&gt;Wire: n個&lt;br/&gt;
+330 Resistor: 一個&lt;br/&gt;
+LED燈: 一個&lt;br/&gt;
+Potentiometer: 一個(不限電駔大小)&lt;br/&gt;
+Arduino Uno: 一個&lt;/p&gt;
+&lt;h3&gt;電路圖(Circuit diagram)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/Arduino/Potentiometer/Circuit diagram.png" width="480" /&gt;&lt;/p&gt;
+&lt;h3&gt;程式碼(Code)&lt;/h3&gt;
+&lt;pre class="brush: python"&gt;
+int potPin = 3;
+int ledPin = 9;
+
+void setup() {
+  Serial.begin(9600); //這題沒設pinMode(腳位,(OUT or IN)PUT)
+  // pinMode(potPin,INPUT)
+  // pinMode(ledPin,OUTPUT)
+}
+
+void loop() {
+  int sensorValue = analogRead(potPin);
+  //讀取potPin接收到的值,以sensorValue表示
+  Serial.println(sensorValue,DEC); // 如果將()內的sensorValue/4會?,不使用DEC會?
+  sensorValue = sensorValue/4;
+  analogWrite(ledPin,sensorValue);
+  delay(50);
+}
+&lt;/pre&gt;
+
+&lt;h3&gt;&lt;a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab4.html"&gt;參考網站&lt;/a&gt;&lt;/h3&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Lab3 Fade</title><link href="./Arduino-Fade.html" rel="alternate"></link><published>2017-04-25T23:02:00+08:00</published><updated>2017-04-25T23:02:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-25:./Arduino-Fade.html</id><summary type="html">&lt;p&gt;以下為Arduino Uno板的Fade實驗&lt;/p&gt;
 
 
 &lt;h3&gt;需要材料:&lt;/h3&gt;

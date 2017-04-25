@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>2017/02/22 第一週 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>Lab4 Potentiometer - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,20 +10,21 @@
 
 
 
-<link rel="canonical" href="./2017spring-cd-W1.html">
+<link rel="canonical" href="./Arduino-Potentiometer.html">
 
         <meta name="author" content="40423222" />
-        <meta name="keywords" content="notes,w1" />
+        <meta name="keywords" content="notes,w8" />
+        <meta name="description" content="以下為Arduino Uno板的Potentiometer實驗" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="2017/02/22 第一週"/>
-        <meta property="og:url" content="./2017spring-cd-W1.html"/>
-        <meta property="og:description" content=""/>
-        <meta property="article:published_time" content="2017-02-22" />
-            <meta property="article:section" content="Course" />
+        <meta property="og:title" content="Lab4 Potentiometer"/>
+        <meta property="og:url" content="./Arduino-Potentiometer.html"/>
+        <meta property="og:description" content="以下為Arduino Uno板的Potentiometer實驗"/>
+        <meta property="article:published_time" content="2017-04-25" />
+            <meta property="article:section" content="Arduino" />
             <meta property="article:tag" content="notes" />
-            <meta property="article:tag" content="w1" />
+            <meta property="article:tag" content="w8" />
             <meta property="article:author" content="40423222" />
 
 
@@ -105,10 +106,10 @@
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="./category/arduino.html">Arduino</a>
                         </li>
-                        <li class="active">
+                        <li >
                             <a href="./category/course.html">Course</a>
                         </li>
             </ul>
@@ -134,10 +135,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./2017spring-cd-W1.html"
+                    <a href="./Arduino-Potentiometer.html"
                        rel="bookmark"
-                       title="Permalink to 2017/02/22 第一週">
-                        2017/02/22 第一週
+                       title="Permalink to Lab4 Potentiometer">
+                        Lab4 Potentiometer
                     </a>
                 </h1>
             </header>
@@ -147,7 +148,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-02-22T11:00:00+08:00"> Wed 22 February 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-04-25T23:50:00+08:00"> Tue 25 April 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423222.html"><i class="fa fa-user"></i> 40423222</a>
@@ -157,11 +158,43 @@
 <span class="label label-default">Tags</span>
 	<a href="./tag/notes.html">notes</a>
         /
-	<a href="./tag/w1.html">w1</a>
+	<a href="./tag/w8.html">w8</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <!-- PELICAN_END_SUMMARY -->
+                <p>以下為Arduino Uno板的Potentiometer實驗</p>
+
+
+<h3>需要材料:</h3>
+<p>Wire: n個<br/>
+330 Resistor: 一個<br/>
+LED燈: 一個<br/>
+Potentiometer: 一個(不限電駔大小)<br/>
+Arduino Uno: 一個</p>
+<h3>電路圖(Circuit diagram)</h3>
+<p><img src="./../data/Arduino/Potentiometer/Circuit diagram.png" width="480" /></p>
+<h3>程式碼(Code)</h3>
+<pre class="brush: python">
+int potPin = 3;
+int ledPin = 9;
+
+void setup() {
+  Serial.begin(9600); //這題沒設pinMode(腳位,(OUT or IN)PUT)
+  // pinMode(potPin,INPUT)
+  // pinMode(ledPin,OUTPUT)
+}
+
+void loop() {
+  int sensorValue = analogRead(potPin);
+  //讀取potPin接收到的值,以sensorValue表示
+  Serial.println(sensorValue,DEC); // 如果將()內的sensorValue/4會?,不使用DEC會?
+  sensorValue = sensorValue/4;
+  analogWrite(ledPin,sensorValue);
+  delay(50);
+}
+</pre>
+
+<h3><a href="http://coopermaa2nd.blogspot.tw/2010/12/arduino-lab4.html">參考網站</a></h3>
             </div>
             <!-- /.entry-content -->
         </article>
