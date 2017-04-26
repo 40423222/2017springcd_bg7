@@ -166,10 +166,10 @@
 用python程式找出缺課同學 ; 用solvespace繪製並組立四連桿,再轉檔用v-rep開啟 ; 影片區</p>
 
 
-<h3>用python程式找出缺課同學</h3>
+<h2>用python程式找出缺課同學:</h2>
 <p>可至<a href="https://github.com/mdecourse/2017springcd/tree/gh-pages/data/w2">班級倉儲內的data下載W2資料夾</a>裡的cd_w2.py(有填寫座位表的人)和w2b_registered.txt(有修課的人)，接著利用利用程式碼列印出分組名單、座位列表、缺席學生和學生總數
 <br/></p>
-<h1>座位程式碼</h1>
+<h3>座位程式碼</h3>
 <pre class="brush: python">
 
 <h1>import os</h1>
@@ -211,7 +211,7 @@
             #print(blist[i])
             #將組序有用_隔開的儲存為clist 
             clist = blist[i].split("<em>")
-            #將組序+</em>+學號+<em>+列+行的資料儲存為stud_data
+            #將組序+</em>+學號+<em>+列+行的資料儲
             stud_data = clist[0]+"</em>"+clist[1]+"<em>"+str(row)+"</em>"+str(column)
              #將stud_data結果附加在final_list的資料裡
             final_list.append(stud_data)
@@ -230,7 +230,7 @@
 <h1>列印出座位列表</h1>
 <p>print("座位列表:")</p>
 <h1>執行一個for迴圈去取得final_list裡的數列</h1>
-<p>for i in range(len(final_list)):
+<p>for i in range(len(final_list)):存為stud_data
     #列印出 final_list[i]的資料
     print(final_list[i])</p>
 <h1>執行一個for迴圈去取得rdata裡的數列</h1>
@@ -245,7 +245,7 @@
 </pre>
 
 <p><br/></p>
-<h3>用solvespace繪製並組立四連桿,再轉檔用v-rep開啟</h3>
+<h2>用solvespace繪製並組立四連桿,再轉檔用v-rep開啟:</h2>
 <p>先在solvespace裡繪製出四連桿結構<br/>
 <img src="./../data/W2/fourbar Architecture.png" width="560" />
 <br/></p>
@@ -255,7 +255,7 @@
 <p>最後將四連桿儲存成stl檔`並用Vrep裡的import裡的Mash開啟(開啟時四連桿會重疊到地面，可用object/item shift調整Z軸高度)<br/>
 <img src="./../data/W2/Vrep fourbar combination.png" width="560" /></p>
 <p><br/></p>
-<h3>影片區</h3>
+<h2>影片區:</h2>
 <p><iframe src="https://player.vimeo.com/video/208413780" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/208413780">Solvespace 30-50-60 cm 比例的四連桿組立</a> from <a href="https://vimeo.com/user47600730">40423228</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
 <p><br/>
