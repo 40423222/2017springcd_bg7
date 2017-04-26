@@ -256,8 +256,110 @@ window.onload = function(){
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 &lt;/div&gt;
 
-&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w5"></category></entry><entry><title>2017/03/15 第四週</title><link href="./2017spring-cd-W4.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-15:./2017spring-cd-W4.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w4"></category></entry><entry><title>2017/03/08 第三週</title><link href="./2017spring-cd-W3.html" rel="alternate"></link><published>2017-03-08T11:00:00+08:00</published><updated>2017-03-08T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-08:./2017spring-cd-W3.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w3"></category></entry><entry><title>2017/03/01 第二週</title><link href="./2017spring-cd-W2.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-01:./2017spring-cd-W2.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w2"></category></entry><entry><title>2017/02/22 第一週</title><link href="./2017spring-cd-W1.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-02-22:./2017spring-cd-W1.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W1內容:&lt;br/&gt;
-學期的課程大綱 ; 了解如何使用stunnel ; 利用python程式碼控制Vrep&lt;/p&gt;
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w5"></category></entry><entry><title>2017/03/15 第四週</title><link href="./2017spring-cd-W4.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-15:./2017spring-cd-W4.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w4"></category></entry><entry><title>2017/03/08 第三週</title><link href="./2017spring-cd-W3.html" rel="alternate"></link><published>2017-03-08T11:00:00+08:00</published><updated>2017-03-08T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-08:./2017spring-cd-W3.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w3"></category></entry><entry><title>2017/03/01 第二週</title><link href="./2017spring-cd-W2.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-01:./2017spring-cd-W2.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W2內容:&lt;br/&gt;
+用python程式找出缺課同學 ; 用solvespace繪製並組立四連桿,再轉檔用v-rep開啟 ; 影片區&lt;/p&gt;
+
+
+&lt;h3&gt;用python程式找出缺課同學&lt;/h3&gt;
+&lt;p&gt;可至&lt;a href="https://github.com/mdecourse/2017springcd/tree/gh-pages/data/w2"&gt;班級倉儲內的data下載W2資料夾&lt;/a&gt;裡的cd_w2.py(有填寫座位表的人)和w2b_registered.txt(有修課的人)，接著利用利用程式碼列印出分組名單、座位列表、缺席學生和學生總數
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;座位程式碼&lt;/h1&gt;
+&lt;pre class="brush: python"&gt;
+
+&lt;h1&gt;import os&lt;/h1&gt;
+&lt;h1&gt;讀取w2b_cadlab.txt的檔案將其儲存為adata，並設定encoding為utf-8&lt;/h1&gt;
+&lt;p&gt;adata = open("w2b_cadlab.txt", encoding="utf-8").read()&lt;/p&gt;
+&lt;h1&gt;讀取w2b_registered.txt的檔案將其儲存為rdata，並一行一行隔開，並設定encoding為utf-8&lt;/h1&gt;
+&lt;p&gt;rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()&lt;/p&gt;
+&lt;h1&gt;列印出adata，以便檢查結果&lt;/h1&gt;
+&lt;h1&gt;print(adata)&lt;/h1&gt;
+&lt;h1&gt;利用splitlines將adata一行一行隔開並其儲存為alist&lt;/h1&gt;
+&lt;p&gt;alist = adata.splitlines()&lt;/p&gt;
+&lt;h1&gt;列印出alist[2]，以便檢查結果&lt;/h1&gt;
+&lt;h1&gt;print(alist[2])&lt;/h1&gt;
+&lt;h1&gt;將變數n儲存為0&lt;/h1&gt;
+&lt;p&gt;n = 0&lt;/p&gt;
+&lt;h1&gt;將列從0開始算起&lt;/h1&gt;
+&lt;p&gt;row = 0&lt;/p&gt;
+&lt;h1&gt;將final_list儲存為一個空的數列&lt;/h1&gt;
+&lt;p&gt;final_list = []&lt;/p&gt;
+&lt;h1&gt;將w2_list儲存為一個空的數列&lt;/h1&gt;
+&lt;p&gt;w2_list = []&lt;/p&gt;
+&lt;h1&gt;執行一個for迴圈從第二列開始&lt;/h1&gt;
+&lt;p&gt;for stud_num in alist[2:]:
+    #每執行完一次迴圈列數+1
+    row = row + 1
+    #執行完迴圈後用\將其隔開並儲存為blist
+    blist = stud_num.split("\t")
+    #列印出blist，以便檢查結果
+    #print(blist)
+    #將行從0開始算起
+    column = 0
+    #執行一個for迴圈去取得blist裡的數列
+    for i in range(len(blist)):
+         #每執行完一次迴圈行數+1
+        column = column + 1
+        #假如blist數列裡不是空白
+        if blist[i] != "":
+            #列印出blist[i]，以便檢查結果
+            #print(blist[i])
+            #將組序有用_隔開的儲存為clist 
+            clist = blist[i].split("&lt;em&gt;")
+            #將組序+&lt;/em&gt;+學號+&lt;em&gt;+列+行的資料儲存為stud_data
+            stud_data = clist[0]+"&lt;/em&gt;"+clist[1]+"&lt;em&gt;"+str(row)+"&lt;/em&gt;"+str(column)
+             #將stud_data結果附加在final_list的資料裡
+            final_list.append(stud_data)
+            #將clist[1]結果附加在w2_list的資料裡
+            w2_list.append(clist[1])
+            #每執行完一次迴圈n+1
+            n = n +1&lt;/p&gt;
+&lt;h1&gt;根據數列前導字串排序, 目的在建立分組數列&lt;/h1&gt;
+&lt;p&gt;group_list = sorted(final_list)&lt;/p&gt;
+&lt;h1&gt;列印出分組名單&lt;/h1&gt;
+&lt;p&gt;print("分組名單:")&lt;/p&gt;
+&lt;h1&gt;執行一個for迴圈去取得group_list裡的數列&lt;/h1&gt;
+&lt;p&gt;for i in range(len(group_list)):
+    #列印出 group_list[i]的資料
+    print(group_list[i])&lt;/p&gt;
+&lt;h1&gt;列印出座位列表&lt;/h1&gt;
+&lt;p&gt;print("座位列表:")&lt;/p&gt;
+&lt;h1&gt;執行一個for迴圈去取得final_list裡的數列&lt;/h1&gt;
+&lt;p&gt;for i in range(len(final_list)):
+    #列印出 final_list[i]的資料
+    print(final_list[i])&lt;/p&gt;
+&lt;h1&gt;執行一個for迴圈去取得rdata裡的數列&lt;/h1&gt;
+&lt;p&gt;for i in range(len(rdata)):
+    #假如有在rdata裡但沒有在w2_list裡，目的在找出缺席學生
+    if rdata[i] not in w2_list:
+        #列印出 rdata[i]的資料，缺席學生
+        print("缺席學生:", rdata[i])&lt;/p&gt;
+&lt;h1&gt;列印出學生總數n個&lt;/h1&gt;
+&lt;p&gt;print("學生總數:", n)&lt;/p&gt;
+&lt;h1&gt;print(os.environ)&lt;/h1&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;用solvespace繪製並組立四連桿,再轉檔用v-rep開啟&lt;/h3&gt;
+&lt;p&gt;先在solvespace裡繪製出四連桿結構&lt;br/&gt;
+&lt;img src="./../data/W2/fourbar Architecture.png" width="560" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;再將桿子組立起來(利用點與點的重合、線的共線及點與面的重合，限制桿子的作動。)&lt;br/&gt;
+&lt;img src="./../data/W2/fourbar combination.png" width="560" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;最後將四連桿儲存成stl檔`並用Vrep裡的import裡的Mash開啟(開啟時四連桿會重疊到地面，可用object/item shift調整Z軸高度)&lt;br/&gt;
+&lt;img src="./../data/W2/Vrep fourbar combination.png" width="560" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;影片區&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/208413780" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/208413780"&gt;Solvespace 30-50-60 cm 比例的四連桿組立&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;iframe src="https://player.vimeo.com/video/206845385" width="640" height="457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/206845385"&gt;40423245機械設計工程系 - 協同產品設計實習課程-W2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/209055543" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/209055543"&gt;2017CD 第二週&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="w2"></category></entry><entry><title>2017/02/22 第一週</title><link href="./2017spring-cd-W1.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-02-22:./2017spring-cd-W1.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W1內容:&lt;br/&gt;
+學期的課程大綱 ; 了解如何使用stunnel ; 利用python程式碼控制Vrep ; 影片區&lt;/p&gt;
 
 
 &lt;h3&gt;學期的課程大綱&lt;/h3&gt;

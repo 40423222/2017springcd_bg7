@@ -14,12 +14,13 @@
 
         <meta name="author" content="40423222" />
         <meta name="keywords" content="notes,w2" />
+        <meta name="description" content="以下為bg7小組組長總合出的bg7_W2內容: 用python程式找出缺課同學 ; 用solvespace繪製並組立四連桿,再轉檔用v-rep開啟 ; 影片區" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="2017/03/01 第二週"/>
         <meta property="og:url" content="./2017spring-cd-W2.html"/>
-        <meta property="og:description" content=""/>
+        <meta property="og:description" content="以下為bg7小組組長總合出的bg7_W2內容: 用python程式找出缺課同學 ; 用solvespace繪製並組立四連桿,再轉檔用v-rep開啟 ; 影片區"/>
         <meta property="article:published_time" content="2017-03-01" />
             <meta property="article:section" content="Course" />
             <meta property="article:tag" content="notes" />
@@ -161,7 +162,109 @@
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <!-- PELICAN_END_SUMMARY -->
+                <p>以下為bg7小組組長總合出的bg7_W2內容:<br/>
+用python程式找出缺課同學 ; 用solvespace繪製並組立四連桿,再轉檔用v-rep開啟 ; 影片區</p>
+
+
+<h3>用python程式找出缺課同學</h3>
+<p>可至<a href="https://github.com/mdecourse/2017springcd/tree/gh-pages/data/w2">班級倉儲內的data下載W2資料夾</a>裡的cd_w2.py(有填寫座位表的人)和w2b_registered.txt(有修課的人)，接著利用利用程式碼列印出分組名單、座位列表、缺席學生和學生總數
+<br/></p>
+<h1>座位程式碼</h1>
+<pre class="brush: python">
+
+<h1>import os</h1>
+<h1>讀取w2b_cadlab.txt的檔案將其儲存為adata，並設定encoding為utf-8</h1>
+<p>adata = open("w2b_cadlab.txt", encoding="utf-8").read()</p>
+<h1>讀取w2b_registered.txt的檔案將其儲存為rdata，並一行一行隔開，並設定encoding為utf-8</h1>
+<p>rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()</p>
+<h1>列印出adata，以便檢查結果</h1>
+<h1>print(adata)</h1>
+<h1>利用splitlines將adata一行一行隔開並其儲存為alist</h1>
+<p>alist = adata.splitlines()</p>
+<h1>列印出alist[2]，以便檢查結果</h1>
+<h1>print(alist[2])</h1>
+<h1>將變數n儲存為0</h1>
+<p>n = 0</p>
+<h1>將列從0開始算起</h1>
+<p>row = 0</p>
+<h1>將final_list儲存為一個空的數列</h1>
+<p>final_list = []</p>
+<h1>將w2_list儲存為一個空的數列</h1>
+<p>w2_list = []</p>
+<h1>執行一個for迴圈從第二列開始</h1>
+<p>for stud_num in alist[2:]:
+    #每執行完一次迴圈列數+1
+    row = row + 1
+    #執行完迴圈後用\將其隔開並儲存為blist
+    blist = stud_num.split("\t")
+    #列印出blist，以便檢查結果
+    #print(blist)
+    #將行從0開始算起
+    column = 0
+    #執行一個for迴圈去取得blist裡的數列
+    for i in range(len(blist)):
+         #每執行完一次迴圈行數+1
+        column = column + 1
+        #假如blist數列裡不是空白
+        if blist[i] != "":
+            #列印出blist[i]，以便檢查結果
+            #print(blist[i])
+            #將組序有用_隔開的儲存為clist 
+            clist = blist[i].split("<em>")
+            #將組序+</em>+學號+<em>+列+行的資料儲存為stud_data
+            stud_data = clist[0]+"</em>"+clist[1]+"<em>"+str(row)+"</em>"+str(column)
+             #將stud_data結果附加在final_list的資料裡
+            final_list.append(stud_data)
+            #將clist[1]結果附加在w2_list的資料裡
+            w2_list.append(clist[1])
+            #每執行完一次迴圈n+1
+            n = n +1</p>
+<h1>根據數列前導字串排序, 目的在建立分組數列</h1>
+<p>group_list = sorted(final_list)</p>
+<h1>列印出分組名單</h1>
+<p>print("分組名單:")</p>
+<h1>執行一個for迴圈去取得group_list裡的數列</h1>
+<p>for i in range(len(group_list)):
+    #列印出 group_list[i]的資料
+    print(group_list[i])</p>
+<h1>列印出座位列表</h1>
+<p>print("座位列表:")</p>
+<h1>執行一個for迴圈去取得final_list裡的數列</h1>
+<p>for i in range(len(final_list)):
+    #列印出 final_list[i]的資料
+    print(final_list[i])</p>
+<h1>執行一個for迴圈去取得rdata裡的數列</h1>
+<p>for i in range(len(rdata)):
+    #假如有在rdata裡但沒有在w2_list裡，目的在找出缺席學生
+    if rdata[i] not in w2_list:
+        #列印出 rdata[i]的資料，缺席學生
+        print("缺席學生:", rdata[i])</p>
+<h1>列印出學生總數n個</h1>
+<p>print("學生總數:", n)</p>
+<h1>print(os.environ)</h1>
+</pre>
+
+<p><br/></p>
+<h3>用solvespace繪製並組立四連桿,再轉檔用v-rep開啟</h3>
+<p>先在solvespace裡繪製出四連桿結構<br/>
+<img src="./../data/W2/fourbar Architecture.png" width="560" />
+<br/></p>
+<p>再將桿子組立起來(利用點與點的重合、線的共線及點與面的重合，限制桿子的作動。)<br/>
+<img src="./../data/W2/fourbar combination.png" width="560" />
+<br/></p>
+<p>最後將四連桿儲存成stl檔`並用Vrep裡的import裡的Mash開啟(開啟時四連桿會重疊到地面，可用object/item shift調整Z軸高度)<br/>
+<img src="./../data/W2/Vrep fourbar combination.png" width="560" /></p>
+<p><br/></p>
+<h3>影片區</h3>
+<p><iframe src="https://player.vimeo.com/video/208413780" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/208413780">Solvespace 30-50-60 cm 比例的四連桿組立</a> from <a href="https://vimeo.com/user47600730">40423228</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<p><br/>
+<iframe src="https://player.vimeo.com/video/206845385" width="640" height="457" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/206845385">40423245機械設計工程系 - 協同產品設計實習課程-W2</a> from <a href="https://vimeo.com/user47996237">40423245</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<p><br/></p>
+<iframe src="https://player.vimeo.com/video/209055543" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/209055543">2017CD 第二週</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
             </div>
             <!-- /.entry-content -->
         </article>
