@@ -256,7 +256,47 @@ window.onload = function(){
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 &lt;/div&gt;
 
-&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w5"></category></entry><entry><title>2017/03/15 第四週</title><link href="./2017spring-cd-W4.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-15:./2017spring-cd-W4.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w4"></category></entry><entry><title>2017/03/08 第三週</title><link href="./2017spring-cd-W3.html" rel="alternate"></link><published>2017-03-08T11:00:00+08:00</published><updated>2017-03-08T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-08:./2017spring-cd-W3.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W3內容:&lt;br/&gt;
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w5"></category></entry><entry><title>2017/03/15 第四週</title><link href="./2017spring-cd-W4.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-15:./2017spring-cd-W4.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W4內容:&lt;br/&gt;
+Fossil的組員之新增和權限設定 ; Onshape繪製單連桿機構並轉出stl檔案 ; solvespace繪製單連桿機構並轉出stl檔案  ; 影片區&lt;/p&gt;
+
+
+&lt;h2&gt;Fossil的組員之新增和權限設定:&lt;/h2&gt;
+&lt;h3&gt;Fossil小組倉儲:&lt;a href="https://mde2a2.kmol.info/cdbg7/index"&gt;cdbg7&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;br/&gt;
+登入Fossil後,如果你的身分有Setup或是Admin,來到admin/user/add這裡可新增成員跟給定全線
+&lt;img src="./../data/W4/fossil add user.png" width="480" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;Onshape繪製單連桿機構並轉出stl檔案:&lt;/h2&gt;
+&lt;p&gt;繪製出所需零件 ，底座、軸及單連桿，並將其組立起來&lt;br/&gt;
+&lt;a href="https://cad.onshape.com/documents/414f3a744b87a17b4d845380/w/576a159abfb695fa37f8e121/e/e6da162a4b20484587e269d6"&gt;Onshape單連桿機構&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;solvespace繪製單連桿機構並轉出stl檔案:&lt;/h2&gt;
+&lt;p&gt;繪製出所需零件 ，底座、軸及單連桿，並將其組立起來&lt;br/&gt;
+&lt;iframe src="./../data/W4/ass.html" width="640" height="420"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;影片區:&lt;/h2&gt;
+&lt;h3&gt;40423228&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212759861" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212759861"&gt;0315單連桿-OnShape&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/212771293" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212771293"&gt;0315單連桿-SolveSpace&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;40423245&lt;/h3&gt;
+&lt;p&gt;&lt;span style="background-color: #ffff00"&gt;1.&lt;/span&gt;Fossil新增組員以及組員權限設定&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://vimeo.com/208973584')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Fossil新增組員&lt;/button&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: #ffff00"&gt;2.&lt;/span&gt;在Onshape繪製單連桿機構並轉出stl檔案&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://vimeo.com/208973817')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape單連桿機構&lt;/button&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: #ffff00"&gt;3.&lt;/span&gt;在solvespace繪製單連桿機構並轉出stl檔案&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://vimeo.com/208973989')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; solvespace單連桿機構&lt;/button&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: #ffff00"&gt;4.&lt;/span&gt;回家練習&lt;/p&gt;
+&lt;p&gt;&lt;button onClick="lity('https://vimeo.com/208974147')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt;回家練習
+&lt;/button&gt; &lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;40423248&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212761593" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212761593"&gt;2017CD 第四週&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w4"></category></entry><entry><title>2017/03/08 第三週</title><link href="./2017spring-cd-W3.html" rel="alternate"></link><published>2017-03-08T11:00:00+08:00</published><updated>2017-03-08T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-08:./2017spring-cd-W3.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W3內容:&lt;br/&gt;
 mde2a1 ; 用Oshape的四連桿,轉入v-rep開啟 ; 編輯Hyperworks的兩個影片  ; 影片區&lt;/p&gt;
 
 
