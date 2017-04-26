@@ -121,7 +121,59 @@ window.onload = function(){
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 &lt;/div&gt;
 
-&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w5"></category></entry><entry><title>2017/03/15 第四週</title><link href="./2017spring-cd-W4.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-15:./2017spring-cd-W4.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W4內容:&lt;br/&gt;
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;p&gt;123123&lt;/p&gt;
+</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W5內容:&lt;br/&gt;
+在Fossil主頁上顯示筆記 ; V-rep模擬單連趕  ; 影片區&lt;/p&gt;
+
+
+&lt;h2&gt;在Fossil主頁上顯示筆記:&lt;/h2&gt;
+&lt;p&gt;在wiki新增一個與倉儲同名稱的筆記，即可在fossil倉儲主頁上顯示這筆記內容
+&lt;img src="./../data/W5/fossil_home.png" width="480" /&gt;&lt;br/&gt;
+&lt;span style="background-color: #ffff00"&gt;Note&lt;/span&gt;: 要是在Wiki上建立了,多餘的筆記,只要用修改,把內容全Delete,這筆記就會看不見&lt;br/&gt;(但還是會有紀錄)&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;V-rep模擬單連趕:&lt;/h2&gt;
+&lt;h3&gt;將上週的單連桿帶入V-rep模擬&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W5/V-rep import.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;接著利用Divide selected shapes將單連桿的零件分開&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W5/V-rep Divide shapes.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;利用Add/Joint/Revolute新增一個旋轉軸&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W5/V-rep onelink Revolute.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;將旋轉軸的位置跟繪製的軸合併再一起&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W5/V-rep onelink Item position.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;設置好各零件的從屬關係&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W5/V-rep onelink ass.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;接著設定旋轉軸的角速度，並固定單連桿&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W5/V-rep onelink Joint Dynamic.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;接著將桿子設為動態物件&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W5/V-rep onelink body Dynamic.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;影片區:&lt;/h2&gt;
+&lt;h3&gt;40423228&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212847283" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212847283"&gt;20170322 單連桿vrep作動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/212855650" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212855650"&gt;0322 四連桿 part1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/212855920" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212855920"&gt;20170322 四連桿 part2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;40423245&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/210093581" width="640" height="454" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/210093581"&gt;40423245機械設計工程系 - 協同產品設計實習課程-W5上課練習&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/210037771" width="640" height="454" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/210037771"&gt;40423245機械設計工程系 - 協同產品設計實習課程-W5回家練習&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w5"></category></entry><entry><title>2017/03/15 第四週</title><link href="./2017spring-cd-W4.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-15:./2017spring-cd-W4.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W4內容:&lt;br/&gt;
 Fossil的組員之新增和權限設定 ; Onshape繪製單連桿機構並轉出stl檔案 ; solvespace繪製單連桿機構並轉出stl檔案  ; 影片區&lt;/p&gt;
 
 
