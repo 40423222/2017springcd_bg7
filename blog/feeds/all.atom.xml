@@ -256,7 +256,68 @@ window.onload = function(){
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 &lt;/div&gt;
 
-&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W6內容:&lt;br/&gt;
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W7內容:&lt;br/&gt;
+利用emd對Fossil倉儲進行管理 ; 用Onshape繪製八連桿 ; 將八連桿匯入V-rep並模擬 ; 影片區&lt;/p&gt;
+
+
+&lt;h2&gt;利用emd對Fossil倉儲進行管理:&lt;/h2&gt;
+&lt;h3&gt;利用以下指令對fossil倉儲進行管理&lt;/h3&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;fossil clone uri foo.fossil (將遠端的倉儲下載下來)
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;fossil open ./../../foo.fossil (將下載下來的倉儲打開)
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;fossil add . (將改版的倉儲推至暫存區)
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;fossil remote-url off (將自動推送改為手動，這是與git不同之處，fossil會自動推送)
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;fossil push https://user@192.168.X.XX  (將暫存區的檔案推至遠端)&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;用Onshape繪製八連桿:&lt;/h2&gt;
+&lt;h3&gt;用參數指令繪製零件&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/zqrCEdW"&gt;&lt;img src="http://i.imgur.com/zqrCEdW.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/n3AhQxS"&gt;&lt;img src="http://i.imgur.com/n3AhQxS.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/4yps6DI"&gt;&lt;img src="http://i.imgur.com/4yps6DI.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;並利用轉動指令及緊固指令將八連桿組立起來&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/hb3p9Jp"&gt;&lt;img src="http://i.imgur.com/hb3p9Jp.gif" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;將八連桿匯入V-rep並模擬:&lt;/h2&gt;
+&lt;h3&gt;與四連桿相同，只不過這次加入了更多的Dummy，因此在其從屬關係上須特別小心。&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W7/V-rep 8 link relationship .png" width="480" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;影片區:&lt;/h2&gt;
+&lt;h3&gt;40423228&lt;/h3&gt;
+&lt;h3&gt;(1).零件&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212793254" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212793254"&gt;20170405 part1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;(2).零件&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212793288" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212793288"&gt;20170405 part2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;(3).組合&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212797143" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212797143"&gt;20170405 part3&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;(4).組合&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212802593" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212802593"&gt;20170405 part4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;40423245&lt;/h3&gt;
+&lt;h3&gt;&lt;span style="background-color: #ffff00"&gt;1.&lt;/span&gt;利用fossil對倉儲進行管理練習&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/212450094" width="640" height="454" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212450094"&gt;40423245機械設計工程系 - 協同產品設計實習課程W7-利用fossil對倉儲進行管理練習&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;&lt;span style="background-color: #ffff00"&gt;2.&lt;/span&gt;利用Onshape繪製八連桿&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/212448923" width="640" height="454" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212448923"&gt;40423245機械設計工程系 - 協同產品設計實習課程W7-利用Onshape繪製八連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;&lt;span style="background-color: #ffff00"&gt;3.&lt;/span&gt;將八連桿匯入V-rep並使其作動&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/212447799" width="640" height="454" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212447799"&gt;40423245機械設計工程系 - 協同產品設計實習課程-W7-將八連桿匯入V-rep並使其作動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W6內容:&lt;br/&gt;
 用Onshape的變數指令繪製四連桿 ; 將四連桿匯入V-rep模擬 ; 影片區&lt;/p&gt;
 
 
