@@ -121,8 +121,44 @@ window.onload = function(){
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 &lt;/div&gt;
 
-&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;p&gt;123123&lt;/p&gt;
-</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W5內容:&lt;br/&gt;
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>2017/04/12 第八週</title><link href="./2017spring-cd-W8.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-12:./2017spring-cd-W8.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>2017/04/05 第七週</title><link href="./2017spring-cd-W7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-04-05:./2017spring-cd-W7.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;</summary><category term="notes"></category><category term="w7"></category></entry><entry><title>2017/03/29 第六週</title><link href="./2017spring-cd-W6.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-29:./2017spring-cd-W6.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W6內容:&lt;br/&gt;
+用Onshape的變數指令繪製四連桿 ; 將四連桿匯入V-rep模擬 ; 影片區&lt;/p&gt;
+
+
+&lt;h2&gt;用Onshape的變數指令繪製四連桿:&lt;/h2&gt;
+&lt;h3&gt;在Onshape裡建立一個新文件，並設定好參數設定&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W6/Onshape Variable.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;接著繪製草圖，在標註尺寸時利用#+參數名稱加入設定好的參數，並將其擠出為零件&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W6/Onshape link and joint.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;接著在組合件裡匯入零件，並利用&lt;img src="./../data/W6/Onshape 轉動.png" width="40" /&gt;指令組立桿子，利用&lt;img src="./../data/W6/Onshape 緊固.png" width="40" /&gt;指令組立軸&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/D0DzEKM"&gt;&lt;img src="http://i.imgur.com/D0DzEKM.gif" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;零件連結 ：&lt;a href="https://cad.onshape.com/documents/2a72700429928831c3ee6f49/w/f729c21a318454e00a730da2/e/6abaf474022c06b4d4cb8063"&gt;Onshape四連桿機構&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;將四連桿匯入V-rep模擬:&lt;/h2&gt;
+&lt;h3&gt;將組立好的四連桿轉出stl，並匯入V-rep，將各個零件分開，加入旋轉軸，加入馬達，將桿子設為動態物件後，設好從屬關係。&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W6/V-rep 從屬關係.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;接著新增兩個Dummy&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W6/V-rep add dummy.png" width="480" /&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h3&gt;並設定兩個Dummy的關係Dynamics&lt;br/&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/W6/V-rep dummy opition.png" width="480" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;h2&gt;影片區:&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/212777111" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/212777111"&gt;20170329四連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user47600730"&gt;40423228&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/211471124" width="640" height="454" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/211471124"&gt;40423245機械設計工程系 - 協同產品設計實習課程-W6上課練習&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/214692737" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/214692737"&gt;2017CD 第六週&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="notes"></category><category term="w6"></category></entry><entry><title>2017/03/22 第五週</title><link href="./2017spring-cd-W5.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-03-22:./2017spring-cd-W5.html</id><summary type="html">&lt;p&gt;以下為bg7小組組長總合出的bg7_W5內容:&lt;br/&gt;
 在Fossil主頁上顯示筆記 ; V-rep模擬單連趕  ; 影片區&lt;/p&gt;
 
 
