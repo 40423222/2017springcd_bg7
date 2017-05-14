@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-10T00:07:00+08:00</updated><entry><title>Arduino</title><link href="./Arduino.html" rel="alternate"></link><published>2017-05-10T00:07:00+08:00</published><updated>2017-05-10T00:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-10:./Arduino.html</id><summary type="html">&lt;p&gt;想了解Arduino Uno板的實驗,請到40423222的個人網誌&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-15T00:10:00+08:00</updated><entry><title>漸開線齒輪</title><link href="./%E6%BC%B8%E9%96%8B%E7%B7%9A%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-15T00:10:00+08:00</published><updated>2017-05-15T00:10:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-15:./漸開線齒輪.html</id><summary type="html">&lt;p&gt;以下為用Onshape繪畫漸開線齒輪,並組裝和模擬,&lt;/p&gt;
+
+
+&lt;h3&gt;繪畫漸開線齒輪:&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217387017" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/217387017"&gt;繪畫漸開線齒輪&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;個人筆記的一小部分:&lt;/h3&gt;
+&lt;p&gt;例題二
+設定 節圓直徑35 齒數10
+所以 35/10 = 3.5模數
+所以畫出節圓35
+以節圓 向外畫3.5為齒高(因為模數為3.5) 向內畫3.8為齒底(要多0.3的空隙 這0.3要查表而知)
+畫相切節圓的切線 在畫通過切線跟節圓的線 並跟切線夾20度
+20度就是壓力角 以圓心畫圓相切這壓力線 這就是假想圓或稱基圓
+壓力線在齒頂圓跟假想圓的長度為13.06 以這兩端點連向圓心
+以壓力線為起點 假想圓長度 要等於 13.06 
+2&lt;em&gt;PI&lt;/em&gt;R/x = 13.06    R = 假想圓半徑   x = 要求y的值 = 7.9075
+360/x = y
+y就是假想圓的角度 = 45.526615 這樣假想圓的就是14.295
+以5等分來劃出漸開線
+9.105323
+每下一條件開線 都要小20%壓力線的長度 因為是5等分 所以每次都要小20%
+把齒一到中上位置 角度是9 因為有10齒 360/20 = 18 18的一半 = 9
+因為10齒+空的10齒 = 200 所以才要除20&lt;/p&gt;
+&lt;h3&gt;組裝跟測試結果:&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217136919" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/217136919"&gt;Onshape漸開線齒輪&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;參考對象:&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=PXdk3sbK-ZM"&gt;https://www.youtube.com/watch?v=PXdk3sbK-ZM&lt;/a&gt;&lt;/p&gt;</summary><category term="notes"></category><category term="w8"></category></entry><entry><title>Arduino</title><link href="./Arduino.html" rel="alternate"></link><published>2017-05-10T00:07:00+08:00</published><updated>2017-05-10T00:07:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-10:./Arduino.html</id><summary type="html">&lt;p&gt;想了解Arduino Uno板的實驗,請到40423222的個人網誌&lt;/p&gt;
 
 
 &lt;h3&gt;有詳細的Arfuino說明&lt;/h3&gt;
