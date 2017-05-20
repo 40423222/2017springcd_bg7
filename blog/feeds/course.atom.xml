@@ -4,7 +4,7 @@
 
 &lt;h2&gt;計畫流程 - (建立)2017/5/16&lt;/h2&gt;
 &lt;h3&gt;1. 討論要繪畫何種步行機構&lt;br/&gt;&lt;/h3&gt;
-&lt;p&gt;原本是要製作四角步行者,但因為構造過於簡單,而淘汰,最後決定繪畫&lt;a href="https://40423245.github.io/2017springcd_hw/blog/2017spring-cd-W7.html"&gt;8連桿&lt;/a&gt;的仿生獸&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;我們原本是要製作四角步行者,但因為45號用V-rep檢驗出結構不穩定,而淘汰,最後決定繪畫&lt;a href="https://40423245.github.io/2017springcd_hw/blog/2017spring-cd-W7.html"&gt;8連桿&lt;/a&gt;的仿生獸&lt;br/&gt;&lt;/p&gt;
 &lt;h4&gt;四角步行者,結構不穩定&lt;br/&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217175485" width="640" height="396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/217175485"&gt;2017-05-12_21-45-50&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
@@ -12,7 +12,7 @@
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kKSDgIhc8GI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=kKSDgIhc8GI&amp;t=98s"&gt;仿生獸&lt;/a&gt; from &lt;a href="https://www.youtube.com/channel/UCSO_wccIgWaT7Zha99EZpEg"&gt;phymec&lt;/a&gt; on &lt;a href="https://www.youtube.com/"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h3&gt;2. 用Onshape繪畫出仿生獸的初步構造&lt;br/&gt;&lt;/h3&gt;
-&lt;p&gt;繪畫8連桿,來組裝出仿生獸,最後完成初步樣貌&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;我複製45號繪畫的8連桿,來組裝出仿生獸,最後跟45號合力完成初步樣貌&lt;br/&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;a href="https://cad.onshape.com/documents/184f668225ac75f1792c95e7/w/72571acf6c6349b01cf46275/e/39e5596f4ae461926867d342"&gt;用Onshape觀看仿生獸&lt;/a&gt;&lt;br/&gt;&lt;/h3&gt;
 &lt;h4&gt;組裝重點&lt;/h4&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217646316" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
@@ -21,10 +21,53 @@
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217646271" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/217646271"&gt;仿生獸-初步完成&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h3&gt;3. 用V-rep模擬出在地板行走的影片&lt;br/&gt;&lt;/h3&gt;
-&lt;p&gt;來確認哪裡需要改良&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;45號用V-rep模擬確認哪裡需要改良&lt;br/&gt;&lt;/p&gt;
 &lt;h4&gt;用V-rep模擬仿生獸&lt;/h4&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217669689" width="640" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/217669689"&gt;2017-05-16_21-47-51&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;h2&gt;4. 組長/45號/48號,用厚紙板製作出實體,用於裝馬達測試&lt;/h2&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>漸開線齒輪</title><link href="./%E6%BC%B8%E9%96%8B%E7%B7%9A%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-15T00:10:00+08:00</published><updated>2017-05-15T00:10:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-15:./漸開線齒輪.html</id><summary type="html">&lt;p&gt;以下為用Onshape繪畫漸開線齒輪,並組裝和模擬,&lt;/p&gt;
+&lt;h3&gt;4. 製作出實體模型&lt;/h3&gt;
+&lt;p&gt;因為3D列印的機會只有一次,所以我決定要製作出實體模型,下課到我房間集合,從集結材料到製作出成品,共花費的4小時....
+&lt;p&gt;
+原先45號有先自己製作出紙製模型,但因為強度跟組裝,我不認同,所以才沒製作
+&lt;br&gt;
+&lt;img src="./../data/Walk mechanism/paper mechanism.png" width="600" /&gt;
+&lt;p&gt;
+之後我跟48號去準備材料,材料費由我來承擔,45號跟51號準備等要製作的尺寸圖,經過3小時多的時間,作後完成了.......
+&lt;br&gt;
+&lt;img src="./../data/Walk mechanism/sticks mechanism.png" width="600" /&gt;
+&lt;p&gt;
+雖然因為軸繪卡點,還有無法合併,再加上累了,而放棄了繼續製作,但也因為有這次組裝的經驗,發現軸帶過細小(值徑: 3 mm),也發現軸要改成螺栓,並也將要重新設計仿生獸,不再是六隻腳,將會桿成四隻腳,並在中央設置齒輪箱&lt;/p&gt;
+&lt;h3&gt;5. 用V-rep模擬出在地板行走的影片&lt;/h3&gt;
+&lt;p&gt;經由45號不斷地修改加測試,仿生獸終於能在地上行走,雖然最後還是會出錯,但已經能看到幾秒行走的過程
+&lt;p&gt;
+&lt;iframe src="https://player.vimeo.com/video/218002165" width="640" height="396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/218002165"&gt;2017-05-18_21-54-06&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;工作分配&lt;/h2&gt;
+&lt;table width="100%" border="5" align="center"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="3" bgcolor="#FFD78C"&gt;組長: 40423222&lt;/td&gt;
+&lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;用Onshape繪畫出仿生獸的初步構造: 組裝出仿生獸&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;做出實際模型: 材料,打洞,組裝&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="4" bgcolor="#FFD78C"&gt;組員: 40423245&lt;/td&gt;
+&lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;用Onshape繪畫出仿生獸的初步構造: 繪畫出組裝零件&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;用V-rep模擬出在地板行走的影片: 45號製作&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;做出實際模型: 初版模型,標打洞記號,組裝&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td style="text-align:center" rowspan="2" bgcolor="#FFD78C"&gt;組員: 40423248&lt;/td&gt;
+&lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;做出實際模型: 材料,打洞,組裝&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td style="text-align:center" bgcolor="#FFD78C"&gt;組員: 40423251&lt;/td&gt;
+&lt;td style="text-align:center"&gt;做出實際模型: 標打洞記號,組裝&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><category term="note"></category><category term="w9"></category></entry><entry><title>漸開線齒輪</title><link href="./%E6%BC%B8%E9%96%8B%E7%B7%9A%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-15T00:10:00+08:00</published><updated>2017-05-15T00:10:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-15:./漸開線齒輪.html</id><summary type="html">&lt;p&gt;以下為用Onshape繪畫漸開線齒輪,並組裝和模擬,&lt;/p&gt;
 
 
 &lt;h3&gt;繪畫漸開線齒輪:&lt;/h3&gt;
