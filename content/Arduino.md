@@ -1,7 +1,7 @@
 Title: Arduino
 Date: 2017-05-10 00:07
 Category: Arduino
-Tags: notes, w8
+Tags: notes, Arduino
 Slug: Arduino
 Author: 40423222
 

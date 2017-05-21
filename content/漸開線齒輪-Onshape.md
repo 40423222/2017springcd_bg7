@@ -1,8 +1,8 @@
-Title: 漸開線齒輪
+Title: 漸開線齒輪-Onshape
 Date: 2017-05-15 00:10
 Category: Course
-Tags: notes, w8
-Slug: 漸開線齒輪
+Tags: notes, gear
+Slug: 漸開線齒輪-Onshape
 Author: 40423222
 
 以下為用Onshape繪畫漸開線齒輪,並組裝和模擬,
