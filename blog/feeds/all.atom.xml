@@ -897,17 +897,47 @@ ctx.restore()
 &lt;p&gt;
 &lt;iframe src="https://player.vimeo.com/video/218002165" width="640" height="396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/218002165"&gt;2017-05-18_21-54-06&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;6. 改進第一代仿生獸&lt;/h3&gt;
+&lt;h4&gt;Onshape-第二代仿生獸-行走影片&lt;/h4&gt;
+&lt;p&gt;注意:Onshape只能顯現外表,無法顯現干涉 / 內應力 / 物體重量 等等....&lt;br&gt;
+&lt;iframe src="https://player.vimeo.com/video/218807979" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/218807979"&gt;-行走影片&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;Onshape-第二代仿生獸-介紹&lt;/h4&gt;
+&lt;p&gt;比起第一代仿生獸,新增了平台,來放置Arduino板 and Motor .....&lt;br&gt;
+&lt;iframe src="https://player.vimeo.com/video/218808064" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/218808064"&gt;-介紹&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;繪畫螺紋&lt;/h4&gt;
+&lt;p&gt;軸原本要使用螺栓,但因為會阻礙到連桿,所以放棄這作法&lt;br&gt;
+&lt;iframe src="https://player.vimeo.com/video/218807932" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/218807932"&gt;Oshape繪畫螺紋&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;7. 改進第二代仿生獸&lt;/h3&gt;
+&lt;h4&gt;Onshape-第二代仿生獸-行走影片&lt;/h4&gt;
+&lt;p&gt;注意:Onshape只能顯現外表,無法顯現干涉 / 內應力 / 物體重量 等等....&lt;br&gt;
+製作中&lt;/p&gt;
+&lt;h4&gt;Onshape-第三代仿生獸-介紹&lt;/h4&gt;
+&lt;p&gt;比起第二代仿生獸,更新了平台 / 連桿 / 軸,更輕更帥氣&lt;br&gt;
+&lt;iframe src="https://player.vimeo.com/video/218808112" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/218808112"&gt;-介紹&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;窩桿渦輪&lt;/h4&gt;
+&lt;p&gt;製作中&lt;/p&gt;
 &lt;h2&gt;工作分配&lt;/h2&gt;
 &lt;table width="100%" border="5" align="center"&gt;
 &lt;tbody&gt;&lt;tr&gt;
-&lt;td style="text-align:center" rowspan="3" bgcolor="#FFD78C"&gt;組長: 40423222&lt;/td&gt;
+&lt;td style="text-align:center" rowspan="5" bgcolor="#FFD78C"&gt;組長: 40423222&lt;/td&gt;
 &lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;用Onshape繪畫出仿生獸的初步構造: 組裝出仿生獸&lt;/td&gt;
 &lt;tr&gt;
-&lt;td style="text-align:center"&gt;做出實際模型: 材料,打洞,組裝&lt;/td&gt;
+&lt;td style="text-align:center"&gt;做出實際模型: 材料,打洞,組裝
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;改進第一代仿生獸: 組長負責
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;改進第二代仿生獸: 更新零件跟組裝
+&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;
-&lt;td style="text-align:center" rowspan="4" bgcolor="#FFD78C"&gt;組員: 40423245&lt;/td&gt;
+&lt;td style="text-align:center" rowspan="5" bgcolor="#FFD78C"&gt;組員: 40423245&lt;/td&gt;
 &lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;用Onshape繪畫出仿生獸的初步構造: 繪畫出組裝零件&lt;/td&gt;
@@ -915,6 +945,9 @@ ctx.restore()
 &lt;td style="text-align:center"&gt;用V-rep模擬出在地板行走的影片: 45號製作&lt;/td&gt;
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;做出實際模型: 初版模型,標打洞記號,組裝&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;改進第二代仿生獸: 繪畫出窩桿渦輪
+&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;
 &lt;td style="text-align:center" rowspan="2" bgcolor="#FFD78C"&gt;組員: 40423248&lt;/td&gt;
 &lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
