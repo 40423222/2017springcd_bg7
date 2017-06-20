@@ -1671,7 +1671,11 @@ ctx.restore()
 &lt;p&gt;3.將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合&lt;/p&gt;</summary><category term="notes"></category><category term="gear"></category></entry><entry><title>期末計畫-行走機構</title><link href="./%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%95%AB-%E8%A1%8C%E8%B5%B0%E6%A9%9F%E6%A7%8B.html" rel="alternate"></link><published>2017-05-16T10:29:00+08:00</published><updated>2017-05-16T10:29:00+08:00</updated><author><name>40423222</name></author><id>tag:,2017-05-16:./期末計畫-行走機構.html</id><summary type="html">&lt;p&gt;&lt;marquee direction="left" height="40" width="600" scrollamount="10" behavior="slide"&gt;以下為協同產品設計實習的期末計畫&lt;/marquee&gt;&lt;/p&gt;
 
 
+&lt;hr&gt;
+
 &lt;h1&gt;計畫流程 - (建立)2017/5/16&lt;/h1&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;1. 討論要繪畫何種步行機構&lt;br/&gt;&lt;/h2&gt;
 &lt;p&gt;我們原本是要製作四角步行者,但因為45號用V-rep檢驗出結構不穩定,而淘汰,最後決定繪畫&lt;a href="https://40423245.github.io/2017springcd_hw/blog/2017spring-cd-W7.html"&gt;8連桿&lt;/a&gt;的仿生獸&lt;br/&gt;&lt;/p&gt;
 &lt;h3&gt;四腳步行者,結構不穩定&lt;br/&gt;&lt;/h3&gt;
@@ -1680,6 +1684,8 @@ ctx.restore()
 &lt;h3&gt;仿生獸&lt;br/&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kKSDgIhc8GI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=kKSDgIhc8GI&amp;t=98s"&gt;仿生獸&lt;/a&gt; from &lt;a href="https://www.youtube.com/channel/UCSO_wccIgWaT7Zha99EZpEg"&gt;phymec&lt;/a&gt; on &lt;a href="https://www.youtube.com/"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;2. 用Onshape繪畫出仿生獸的初步構造&lt;br/&gt;&lt;/h2&gt;
 &lt;p&gt;我複製45號繪畫的8連桿,來組裝出仿生獸,最後跟45號合力完成初步樣貌&lt;br/&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;a href="https://cad.onshape.com/documents/184f668225ac75f1792c95e7/w/72571acf6c6349b01cf46275/e/39e5596f4ae461926867d342"&gt;用Onshape觀看仿生獸&lt;/a&gt;&lt;br/&gt;&lt;/h2&gt;
@@ -1689,10 +1695,14 @@ ctx.restore()
 &lt;h3&gt;初步完成&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217646271" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/217646271"&gt;仿生獸-初步完成&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;3. 用V-rep模擬出在地板行走的影片&lt;br/&gt;&lt;/h2&gt;
 &lt;p&gt;45號用V-rep模擬確認哪裡需要改良&lt;br/&gt;&lt;/p&gt;
 &lt;h3&gt;用V-rep模擬仿生獸&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/217669689" width="640" height="410" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/217669689"&gt;2017-05-16_21-47-51&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;4. 製作出實體模型&lt;/h2&gt;
 &lt;p&gt;因為3D列印的機會只有一次,所以我決定要製作出實體模型,下課到我房間集合,從集結材料到製作出成品,共花費的4小時....
 &lt;p&gt;
@@ -1705,11 +1715,15 @@ ctx.restore()
 &lt;img src="./../data/Walk mechanism/sticks mechanism.png" width="600" /&gt;
 &lt;p&gt;
 雖然因為軸繪卡點,還有無法合併,再加上累了,而放棄了繼續製作,但也因為有這次組裝的經驗,發現軸帶過細小(值徑: 3 mm),也發現軸要改成螺栓,並也將要重新設計仿生獸,不再是六隻腳,將會桿成四隻腳,並在中央設置齒輪箱&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;5. 用V-rep模擬出在地板行走的影片&lt;/h2&gt;
 &lt;p&gt;經由45號不斷地修改加測試,仿生獸終於能在地上行走,雖然最後還是會出錯,但已經能看到幾秒行走的過程
 &lt;p&gt;
 &lt;iframe src="https://player.vimeo.com/video/218002165" width="640" height="396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/218002165"&gt;2017-05-18_21-54-06&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;6. 改進第一代仿生獸&lt;/h2&gt;
 &lt;h3&gt;&lt;a href="https://cad.onshape.com/documents/99bea89428b15b1fd764f653/w/9126b8533964a3c22b3305dd/e/f3ea59a0d1f6576590ccec99"&gt;點擊這觀看第二代仿生獸&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;注意: 第二代仿生獸在下方標題的&lt;font color="#RRGGBB"&gt;error&lt;/font&gt;內&lt;/p&gt;
@@ -1725,6 +1739,8 @@ ctx.restore()
 &lt;p&gt;軸原本要使用螺栓,但因為會阻礙到連桿,所以放棄這作法&lt;br&gt;
 &lt;iframe src="https://player.vimeo.com/video/218807932" width="640" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/218807932"&gt;Oshape繪畫螺紋&lt;/a&gt; from &lt;a href="https://vimeo.com/user57795652"&gt;40423222&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;7. 改進第二代仿生獸&lt;/h2&gt;
 &lt;h3&gt;Onshape-第三代仿生獸-行走影片&lt;/h3&gt;
 &lt;p&gt;注意:Onshape只能顯現外表,無法顯現干涉 / 內應力 / 物體重量 等等....&lt;br&gt;&lt;/p&gt;
@@ -1739,6 +1755,8 @@ ctx.restore()
 &lt;iframe src="https://player.vimeo.com/video/219273694" width="640" height="413" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/219273694"&gt;40423245機械設計工程系 - 協同產品設計實習課程W14-在Onshape中繪製蝸桿蝸輪&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;&lt;/p&gt;
+&lt;hr&gt;
+
 &lt;h2&gt;8. 第三代仿生獸&lt;/h2&gt;
 &lt;h3&gt;&lt;a href="https://cad.onshape.com/documents/43c74b90eb0aafa6f64e6260/w/89d06f95bee2445c7db3d5d6/e/d084ac72ca838dc1385b4f1e"&gt;點擊這觀看第三代仿生獸&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;
@@ -1751,10 +1769,29 @@ ctx.restore()
 &lt;h4&gt;確認馬達規格&lt;/h4&gt;
 &lt;h4&gt;Onshape行走影片(有太多問題就放棄)&lt;/h4&gt;
 &lt;h4&gt;45號的V-rep模擬&lt;/h4&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;9. 最後&lt;/h2&gt;
+&lt;p&gt;在找了學長了之後 才知道軸不能太細(會印不出來) 因此我跟48號去 找代替軸的商店(並要他製作商店資訊)
+&lt;br&gt;
+但軸都是有特定規格 要在改設計太花時間 所以最後決定 最長的軸不印 其餘的軸給45號加大
+&lt;br&gt;
+還有齒輪不能小於13齒(聽說齒輪會斷)&lt;/p&gt;
+&lt;h3&gt;松億螺絲&lt;/h3&gt;
+&lt;p&gt;聽學整說有一家賣螺絲的店家
+&lt;img src="./../data/Walk mechanism/松億.jpg"&gt;
+&lt;br&gt;
+地址:632雲林縣虎尾鎮光明路66號
+營業時間:週一至周五 早上8:10至下午17:10
+電話:05-632-2204&lt;/p&gt;
+&lt;h3&gt;修改仿生獸&lt;/h3&gt;
+&lt;h4&gt;&lt;a href="https://cad.onshape.com/documents/cf507b96e7c271e8c87cf557/w/1b52e29c6835a06bb0bc5287/e/be08f4e14664ee2e0e4f9d3e"&gt;這是仿生獸最後修改完的連結&lt;/a&gt;&lt;/h4&gt;
+&lt;h3&gt;等待印完&lt;/h3&gt;
+&lt;h4&gt;禮拜五列印完成 也就是說禮拜五以後才會有實體(而且還要組裝)&lt;/h4&gt;
 &lt;h2&gt;工作分配&lt;/h2&gt;
 &lt;table width="100%" border="5" align="center"&gt;
 &lt;tbody&gt;&lt;tr&gt;
-&lt;td style="text-align:center" rowspan="6" bgcolor="#FFD78C"&gt;組長: 40423222&lt;/td&gt;
+&lt;td style="text-align:center" rowspan="8" bgcolor="#FFD78C"&gt;組長: 40423222&lt;/td&gt;
 &lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;用Onshape繪畫出仿生獸的初步構造: 組裝出仿生獸&lt;/td&gt;
@@ -1770,8 +1807,14 @@ ctx.restore()
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;第三代仿生獸: 繪製見開線齒輪,組裝成形
 &lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;最後: 跟45去看松億,修改仿生獸(齒輪/底板/軸/馬達座)
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;紀錄仿生獸的開始到結束
+&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;
-&lt;td style="text-align:center" rowspan="6" bgcolor="#FFD78C"&gt;組員: 40423245&lt;/td&gt;
+&lt;td style="text-align:center" rowspan="7" bgcolor="#FFD78C"&gt;組員: 40423245&lt;/td&gt;
 &lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;用Onshape繪畫出仿生獸的初步構造: 繪畫出組裝零件&lt;/td&gt;
@@ -1785,11 +1828,17 @@ ctx.restore()
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;第三代仿生獸: 繪製Arduino固定架,組裝成形
 &lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;最後: 修改仿生獸(連桿),匯出零件列表
+&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;
-&lt;td style="text-align:center" rowspan="2" bgcolor="#FFD78C"&gt;組員: 40423248&lt;/td&gt;
+&lt;td style="text-align:center" rowspan="3" bgcolor="#FFD78C"&gt;組員: 40423248&lt;/td&gt;
 &lt;td style="text-align:center"&gt;討論要繪畫何種步行機構: 跟組員互相討論&lt;/td&gt;
 &lt;tr&gt;
 &lt;td style="text-align:center"&gt;做出實際模型: 材料,打洞,組裝&lt;/td&gt;
+&lt;tr&gt;
+&lt;td style="text-align:center"&gt;最後: 查看商店(並製作Blog),將零件列表寄給學長(並接收列印進度)
+&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;
 &lt;td style="text-align:center" bgcolor="#FFD78C"&gt;組員: 40423251&lt;/td&gt;
 &lt;td style="text-align:center"&gt;做出實際模型: 標打洞記號,組裝&lt;/td&gt;
